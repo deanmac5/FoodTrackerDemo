@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05729EDD1C1F862B00E87273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05729EDC1C1F862B00E87273 /* Main.storyboard */; };
 		05F0E4AC1C1EDC6A00C5D7BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F0E4AB1C1EDC6A00C5D7BF /* AppDelegate.swift */; };
 		05F0E4AE1C1EDC6A00C5D7BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F0E4AD1C1EDC6A00C5D7BF /* ViewController.swift */; };
-		05F0E4B11C1EDC6A00C5D7BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F0E4AF1C1EDC6A00C5D7BF /* Main.storyboard */; };
 		05F0E4B31C1EDC6A00C5D7BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F0E4B21C1EDC6A00C5D7BF /* Assets.xcassets */; };
 		05F0E4B61C1EDC6A00C5D7BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F0E4B41C1EDC6A00C5D7BF /* LaunchScreen.storyboard */; };
 		05F0E4C11C1EDC6A00C5D7BF /* FoodTrackerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F0E4C01C1EDC6A00C5D7BF /* FoodTrackerDemoTests.swift */; };
@@ -26,10 +26,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05729EDC1C1F862B00E87273 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		05F0E4A81C1EDC6A00C5D7BF /* FoodTrackerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTrackerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F0E4AB1C1EDC6A00C5D7BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05F0E4AD1C1EDC6A00C5D7BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		05F0E4B01C1EDC6A00C5D7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05F0E4B21C1EDC6A00C5D7BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05F0E4B51C1EDC6A00C5D7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05F0E4B71C1EDC6A00C5D7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			children = (
 				05F0E4AB1C1EDC6A00C5D7BF /* AppDelegate.swift */,
 				05F0E4AD1C1EDC6A00C5D7BF /* ViewController.swift */,
-				05F0E4AF1C1EDC6A00C5D7BF /* Main.storyboard */,
+				05729EDC1C1F862B00E87273 /* Main.storyboard */,
 				05F0E4B21C1EDC6A00C5D7BF /* Assets.xcassets */,
 				05F0E4B41C1EDC6A00C5D7BF /* LaunchScreen.storyboard */,
 				05F0E4B71C1EDC6A00C5D7BF /* Info.plist */,
@@ -179,7 +179,7 @@
 			files = (
 				05F0E4B61C1EDC6A00C5D7BF /* LaunchScreen.storyboard in Resources */,
 				05F0E4B31C1EDC6A00C5D7BF /* Assets.xcassets in Resources */,
-				05F0E4B11C1EDC6A00C5D7BF /* Main.storyboard in Resources */,
+				05729EDD1C1F862B00E87273 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +221,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		05F0E4AF1C1EDC6A00C5D7BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05F0E4B01C1EDC6A00C5D7BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		05F0E4B41C1EDC6A00C5D7BF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -388,6 +380,7 @@
 				05F0E4C71C1EDC6A00C5D7BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05F0E4C81C1EDC6A00C5D7BF /* Build configuration list for PBXNativeTarget "FoodTrackerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +389,7 @@
 				05F0E4CA1C1EDC6A00C5D7BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
